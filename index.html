@@ -4,15 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #t1{
+            height: 155px;
+            width: 300px;
+            overflow-x: auto;
+            border-top: 2px solid gray;
+            border-left: 2px solid gray;
+            border-right: 1px solid gray;
+            border-bottom: 1px solid gray;   
+        }
+    </style>
 </head>
 <body>
     <h1>HTML Project with iframes</h1>
-    <div height="200" width="200" >
-        <h4>Welcome to Geekster</h4>
+    <div id="t1">
+        <h3>Welcome to Geekster</h3> 
+        <p>
+            This content is displayed from a local HTML file using an iframe. 
+        </p>
+        <p>
+            Similarly you can craete different sizes of windows using iframes in HTML
+        </p>
+        
     </div>
-    <h4>Local Content</h4>
+    <h2>Local Content</h2>
     <iframe src="https://www.geekster.in/" width="500" height="500"></iframe>
-    <h3>YouTube Video</h3>
+    <h2>YouTube Video</h2>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/H335Vdkmdhk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 </body>
